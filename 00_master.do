@@ -6,7 +6,7 @@
 clear all
 set more off
 *------------------------------- 1. Paths ----------------------------------------
-global root "D:/DATA/data_ygz/异地投资"
+global root "path/to/project"
 global code   "$root/code"
 global raw    "$root/data/raw"
 global clean  "$root/data/clean"
