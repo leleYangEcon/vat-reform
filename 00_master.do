@@ -32,7 +32,7 @@ global esopt `"b(%12.3f) se(%12.3f) nogap compress star(* 0.1 ** 0.05 *** 0.01)"
 
 *------------------------------- 4. Run ------------------------------------------
 * notes:cross-regional investment is built in Python
-do "$code/02_build_sample.do"
+do "$code/02_did.do"
 do "$code/03_build_variables.do"
 do "$code/04_build_robustness_samples.do"
 do "$code/05_placebo.do"
